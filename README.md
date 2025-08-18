@@ -14,7 +14,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-HOW TO DEPLOY SITE!!!!!!!!!!!!!!!!
+HOW TO DEPLOY SITE!!!!!!!!!
 
 
 
