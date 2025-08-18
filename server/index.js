@@ -30,7 +30,6 @@ if (!VERIFY_SERVICE_SID) {
   process.exit(1);
 }
 
-// In-memory user store with hashed passwords
 const USERS = [
   { username: 'admin', passwordHash: '', role: 'admin' },
   { username: 'user', passwordHash: '', role: 'guest' },
