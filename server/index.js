@@ -36,7 +36,6 @@ const USERS = [
   { username: 'user', passwordHash: '', role: 'guest' },
 ];
 
-// hash example passwords on startup
 async function initUsers() {
   USERS[0].passwordHash = await bcrypt.hash('admin123', SALT_ROUNDS);
   USERS[1].passwordHash = await bcrypt.hash('user123', SALT_ROUNDS);
