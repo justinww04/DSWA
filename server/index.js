@@ -1,4 +1,4 @@
-require('dotenv').config(); // Load .env at startup
+require('dotenv').config(); 
 
 const express = require('express');
 const multer = require('multer');
