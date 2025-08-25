@@ -67,9 +67,7 @@ app.post('/login', async (req, res) => {
   return res.json({ step: 'verify_sms' });
 });
 
-// -----------------------------------------
-// 📩 SEND SMS CODE
-// -----------------------------------------
+
 app.post('/send-code', async (req, res) => {
   const { phone } = req.body;
   if (!phone) return res.status(400).json({ error: 'Phone required' });
