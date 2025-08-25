@@ -49,9 +49,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads'), {
   }
 }));
 
-// -----------------------------------------
-// 🚪 LOGIN ROUTE (username/password only)
-// -----------------------------------------
+
 app.post('/login', async (req, res) => {
   const { username, password, phone } = req.body;
   const user = USERS.find(u => u.username === username);
