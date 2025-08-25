@@ -86,9 +86,7 @@ app.post('/send-code', async (req, res) => {
   }
 });
 
-// -----------------------------------------
-// ✅ VERIFY SMS CODE + ISSUE JWT
-// -----------------------------------------
+
 app.post('/verify-code', async (req, res) => {
   const { phone, code, username } = req.body;
   if (!phone || !code || !username) {
