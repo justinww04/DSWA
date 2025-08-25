@@ -111,9 +111,7 @@ app.post('/verify-code', async (req, res) => {
   }
 });
 
-// -----------------------------------------
-// 🔐 MIDDLEWARE FOR JWT PROTECTION
-// -----------------------------------------
+
 function authenticateToken(req, res, next) {
   const token = req.headers['authorization']?.split(' ')[1];
   if (!token) return res.sendStatus(401);
