@@ -16,7 +16,7 @@ function App() {
   const [view, setView] = useState('all');
   const [uploading, setUploading] = useState(false);
 
-  // RENAME MODAL STATE
+ 
   const [showRename, setShowRename] = useState(false);
   const [renameOld, setRenameOld] = useState('');
   const [renameNew, setRenameNew] = useState('');
