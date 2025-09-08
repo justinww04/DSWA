@@ -185,7 +185,7 @@ function App() {
     document.body.removeChild(a);
   };
 
-  // ---- RENAME HANDLER ----
+  
   const handleRename = async (e) => {
     e.preventDefault();
     if (!renameOld || !renameNew) {
