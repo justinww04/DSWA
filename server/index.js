@@ -162,6 +162,7 @@ app.delete('/files', authenticateToken, (req, res) => {
   });
 });
 
+
 app.post('/rename-file', authenticateToken, (req, res) => {
   if (req.user.role !== 'admin') return res.sendStatus(403);
   const { oldName, newName } = req.body;
