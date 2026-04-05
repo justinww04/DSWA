@@ -23,3 +23,7 @@ In one terminal /cd into client by typing "cd client" then run "npm run dev"
 In another terminal run "cd client" then "cd server" then run "node index.js"
 
 This is will launch the site in your browser at a localhost, if you are interested in checking out my project please message me at justinw.whitman@gmail.com and I will give you access to it. youll just need the user, password then the sms verification. I have to do this by giving your number access to work as sms verification. 
+
+
+
+-working on account settings
